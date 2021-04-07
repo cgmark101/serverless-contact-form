@@ -11,4 +11,3 @@ jobs:
           deta-access-token: ${{ secrets.DETA_TOKEN }} #Deta access token https://docs.deta.sh/docs/cli/auth
           deta-name: 'post-tutorial' #Deta Micro name https://docs.deta.sh/docs/cli/commands/#deta-clone
           deta-project: 'default' #Deta project name https://docs.deta.sh/docs/cli/commands/#deta-clone
-
