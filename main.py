@@ -37,4 +37,5 @@ async def email(
                 })
     except:
         return {'message':'something went wrong'}
+    # Redirect to akane.ga in this casebut can be redirected to any website
     return RedirectResponse(url='https://akane.ga', status_code=status.HTTP_302_FOUND)
