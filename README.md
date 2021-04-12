@@ -5,7 +5,7 @@ Small code of a serverless "Form" implementation on Deta platform
 
 <img src="https://cdn.jsdelivr.net/gh/cgmark101/CDN-stuff@main/dist/img/form-front.png" alt="html5" style="max-width:100%;">
 
-<img src="https://cdn.jsdelivr.net/gh/cgmark101/CDN-stuff@main/dist/img/frame-form.png" alt="html5"  style="max-width:100%;">
+<img src="https://cdn.jsdelivr.net/gh/cgmark101/CDN-stuff/dist/img/frame-form.png" alt="html5"  style="max-width:100%;">
 
 <img src="https://cdn.jsdelivr.net/gh/cgmark101/CDN-stuff@main/dist/img/deta-akane-contact.png" alt="html5" style="max-width:100%;">
 
