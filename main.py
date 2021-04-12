@@ -6,11 +6,7 @@ import starlette.status as status
 
 from datetime import datetime, date
 
-today = date.today()
-now = datetime.now()
-
-current_date = today.strftime("%d/%m/%Y")
-current_time = now.strftime("%H:%M:%S")
+from mail.mail import sender
 
 deta = Deta() # DetaBase instance
 db = deta.Base("akane-contact") # Name of the data base
@@ -27,6 +23,10 @@ async def email(
     name: str = Form(...), 
     email: str = Form(...), 
     message: str = Form(...)):
+    today = date.today()
+    now = datetime.now()
+    current_date = today.strftime("%d/%m/%Y")
+    current_time = now.strftime("%H:%M:%S")
     try:
         insert = db.insert({
                 'nombre':name, 
@@ -35,7 +35,8 @@ async def email(
                 'fecha':current_date,
                 'hora':current_time
                 })
+        send = sender()
     except:
         return {'message':'something went wrong'}
     # Redirect to akane.ga in this casebut can be redirected to any website
-    return RedirectResponse(url='https://akane.ga', status_code=status.HTTP_302_FOUND)
+    return RedirectResponse(url='http://akane.ga', status_code=status.HTTP_302_FOUND)
