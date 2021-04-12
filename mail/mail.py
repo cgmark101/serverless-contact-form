@@ -2,8 +2,6 @@ import email
 import smtplib
 from datetime import datetime
 
-
-
 def sender():
     now = datetime.now()
     gmail_user = 'example@gmail.com'
@@ -19,7 +17,7 @@ def sender():
     msg['Subject'] = f"{now}"
 
     s = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-    s.ehlo() # Hostname to send for this command defaults to the fully qualified domain name of the local host.
+    s.ehlo() 
     s.login(gmail_user, gmail_password)
     s.sendmail(gmail_user, "example2@gmail.com", msg.as_string())
 
