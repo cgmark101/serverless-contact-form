@@ -5,7 +5,7 @@ Add a backend for any contact forms effortlessly by deploying this tool at Deta.
 
 # Features:
 
-* Pluggable backend of a custom contact form
+* Pluggable backend for custom contact forms
 * Email notification at POST
 * Rate limit contact form endpoint 
 
