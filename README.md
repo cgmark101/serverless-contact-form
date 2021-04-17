@@ -15,12 +15,12 @@ Add a backend for any contact form effortlessly by deploying this tool at Deta. 
 * Add support for different platforms (Heroku and Vercel)
  
 
-<img src="https://cdn.jsdelivr.net/gh/cgmark101/CDN-stuff@main/dist/img/form-back.png" alt="html5" style="max-width:100%">
+<img src="https://cdn.jsdelivr.net/gh/cgmark101/CDN-stuff@main/dist/img/form-back.webp" alt="html5" style="max-width:100%">
 
-<img src="https://cdn.jsdelivr.net/gh/cgmark101/CDN-stuff@main/dist/img/form-front.png" alt="html5" style="max-width:100%;">
+<img src="https://cdn.jsdelivr.net/gh/cgmark101/CDN-stuff@main/dist/img/form-html.webp" alt="html5" style="max-width:100%;">
 
-<img src="https://cdn.jsdelivr.net/gh/cgmark101/CDN-stuff/dist/img/frame-form.png" alt="html5"  style="max-width:100%;">
+<img src="https://cdn.jsdelivr.net/gh/cgmark101/CDN-stuff@main/dist/img/frame-form.webp" alt="html5"  style="max-width:100%;">
 
-<img src="https://cdn.jsdelivr.net/gh/cgmark101/CDN-stuff@main/dist/img/deta-akane-contact.png" alt="html5" style="max-width:100%;">
+<img src="https://cdn.jsdelivr.net/gh/cgmark101/CDN-stuff@main/dist/img/deta-akane-contact.webp" alt="html5" style="max-width:100%;">
 
 Go to [Akane blog](https://akane.ga/articles/email-post/) for more details
