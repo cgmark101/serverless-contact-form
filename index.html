@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -6,52 +7,29 @@
 </head>
 
 <body>
+    
+    <form action="https://kfjbe9.deta.dev/form" method="post">
+        <input id="csrf_token" name="csrf_token" type="hidden"
+            value="ImU2NzU0OTkwNmQ4OTNlYThkZDdkNDZmMWNhN2JiZGEwNGU4YjIyMjUi.YHXpIA.111xqgFXKgymdQY4bLK_BB4z0Lc">
+        <p>
+            <label for="name">Your Name:</label>
+            <input id="name" name="name" required type="text" value="">
+        </p>
 
-<link href="contact-form.css" rel="stylesheet">
+        <p>
+            <label for="email">Your e-mail address:</label>
+            <input id="email" name="email" required type="text" value="">
+        </p>
 
-<div class="fcf-body">
-
-    <div id="fcf-form">
-    <h3 class="fcf-h3">Contact us</h3>
-
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="https://gjm93c.deta.dev/form">
-        
-        <div class="fcf-form-group">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" class="fcf-form-control">
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" class="fcf-form-control">
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <label for="Subject" class="fcf-label">Your subject</label>
-            <div class="fcf-input-group">
-                <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="fcf-form-control" required="">
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" class="fcf-form-control"></textarea>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-        </div>
+        <p>
+            <label for="message">Your message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </p>
+        <p>
+            <input id="submit" name="submit" type="submit" value="Send Message">
+        </p>
 
     </form>
-    </div>
-
-</div>
-
 </body>
+
 </html>
