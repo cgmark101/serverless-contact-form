@@ -2,3 +2,4 @@ fastapi
 deta
 uvicorn
 python-multipart
+slowapi
