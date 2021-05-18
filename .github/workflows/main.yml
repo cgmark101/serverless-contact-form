@@ -9,6 +9,6 @@ jobs:
       - uses: BogDAAAMN/deta-deploy-action@v1.0.0
         with:
           deta-access-token: ${{ secrets.DETA_TOKEN }} #Deta access token https://docs.deta.sh/docs/cli/auth
-          deta-name: 'post-tutorial' #Deta Micro name https://docs.deta.sh/docs/cli/commands/#deta-clone
+          deta-name: 'post-tut' #Deta Micro name https://docs.deta.sh/docs/cli/commands/#deta-clone
           deta-project: 'default' #Deta project name https://docs.deta.sh/docs/cli/commands/#deta-clone
 
